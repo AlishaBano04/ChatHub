@@ -60,3 +60,6 @@ if (process.env.NODE_ENV != "production") {
     console.log(`server is listening to the port : ${PORT}`)
   );
 }
+
+//export server for vercel
+export default server;
